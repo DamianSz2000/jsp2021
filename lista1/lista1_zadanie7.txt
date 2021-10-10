@@ -1,0 +1,10 @@
+_ przechowuje ostatnia wartosc w trybie interaktywnym np:
+>>> 10
+10
+>>> _
+10
+>>> _ * 5
+50
+>>> _
+50
+Pelni role tymczasowego schowka dla ostatniej wartosci
