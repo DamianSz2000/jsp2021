@@ -7,4 +7,4 @@ _ przechowuje ostatnia wartosc w trybie interaktywnym np:
 50
 >>> _
 50
-Pelni role tymczasowego schowka dla ostatniej wartosci
+Pelni role tymczasowego schowka dla ostatniej wartosci bez potrzeby tworzenia osobnej zmiennej
