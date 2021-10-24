@@ -1,4 +1,4 @@
-def sumaEl(tab):
+def suma_el(tab):
     suma = 0
     dl = len(tab)
     for _ in range(0,dl):
@@ -11,4 +11,4 @@ tab = []
 for _ in range(0,n):
     elem = int(input())
     tab.append(elem)
-print("Suma elementow tablicy wynosi: ", sumaEl(tab))
+print("Suma elementow tablicy wynosi: ", suma_el(tab))

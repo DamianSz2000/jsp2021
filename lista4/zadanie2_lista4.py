@@ -1,4 +1,4 @@
-def usunPowt(t):
+def usun_powt(t):
     t.sort()
     t = list(dict.fromkeys(t))
     return t
@@ -10,4 +10,4 @@ for _ in range(0,n):
     elem = int(input())
     tab.append(elem)
 print("Lista: ", tab)
-print("Lista bez powtorzen: ", usunPowt(tab))
+print("Lista bez powtorzen: ", usun_powt(tab))
