@@ -1,8 +1,8 @@
-def sumaEl(t):
+def sumaEl(tab):
     suma = 0
-    dl = len(t)
+    dl = len(tab)
     for _ in range(0,dl):
-        suma = suma + t[_]
+        suma = suma + tab[_]
     return suma
 
 n = int(input("Podaj ilosc elementow tablicy: "))
