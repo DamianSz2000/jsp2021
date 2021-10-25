@@ -1,5 +1,5 @@
 import math
-#a to stopnie/radany otrzymywane od użytkownika a b to wybór czy chcemy konwertowac na radiany ("r") czy na stopnie ("d")
+#a to stopnie/radiany otrzymywane od użytkownika a b to wybór czy chcemy konwertowac na radiany ("r") czy na stopnie ("d")
 def konwersja(a,b):
     if b == "r":
         wynik = a * math.pi / 180
