@@ -5,5 +5,5 @@ def fibonacci(n):
 
 N = int(input("Podaj koniec ciagu Fibonacci: "))
 
-for _ in range(0,N+1):
+for _ in range(0,N):
     print(fibonacci(_))
