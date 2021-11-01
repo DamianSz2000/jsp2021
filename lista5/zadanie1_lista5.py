@@ -1,5 +1,5 @@
-def zamien_na_liczbe(x):
-    liczby = {
+def convert_to_number(x):
+    numbers = {
         "One": 1,
         "Two": 2,
         "Three": 3,
@@ -25,19 +25,19 @@ def zamien_na_liczbe(x):
         "Fifty": 50,
     }
     if x.__contains__("Twenty") and len(x) > 6:
-        wyrazy = x.split("-")
-        return liczby[wyrazy[0]] + liczby[wyrazy[1]]
+        words = x.split("-")
+        return numbers[words[0]] + numbers[words[1]]
     elif x.__contains__("Thirty") and len(x) > 6:
-        wyrazy = x.split("-")
-        return liczby[wyrazy[0]] + liczby[wyrazy[1]]
+        words = x.split("-")
+        return numbers[words[0]] + numbers[words[1]]
     elif x.__contains__("Forty") and len(x) > 5:
-        wyrazy = x.split("-")
-        return liczby[wyrazy[0]] + liczby[wyrazy[1]]
+        words = x.split("-")
+        return numbers[words[0]] + numbers[words[1]]
     elif x.__contains__("Fifty") and len(x) > 5:
-        wyrazy = x.split("-")
-        return liczby[wyrazy[0]] + liczby[wyrazy[1]]
-    return liczby[x]
+        words = x.split("-")
+        return numbers[words[0]] + numbers[words[1]]
+    return numbers[x]
 
 
 x = input("Podaj slownie liczbe od 1 do 59 aby zamienic ja na liczbe np(One albo Twenty-Five): ")
-print("Liczba zamieniona na tekst: ", zamien_na_liczbe(x))
+print("Liczba zamieniona na tekst: ", convert_to_number(x))
