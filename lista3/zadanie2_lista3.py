@@ -5,6 +5,7 @@ else:
     print("Liczba", liczba, "jest nieparzysta", sep=" ")
 
 # Ponizej program bez uzycia if
+print("#"*30,end='\n')
 
 tablica = ['parzysta', 'nieparzysta']
 print("Liczba", liczba, "jest", tablica[liczba % 2], sep=" ")
