@@ -21,8 +21,8 @@ def rgb_na_hsv(r, g, b):
     return h, s, v
 
 print("Podawaj wartosci RGB: ")
-r = int(input("R: "))
-g = int(input("G: "))
-b = int(input("B: "))
+r = float(input("R: "))
+g = float(input("G: "))
+b = float(input("B: "))
 wynik = rgb_na_hsv(r, g, b)
 print("Po konwersji na HSV: ",wynik[0], "°,", wynik[1], "%,", wynik[2], "%,", sep = "")

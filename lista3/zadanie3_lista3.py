@@ -17,4 +17,4 @@ else:
         x1 = -b/(2*a)
         print("Pierwiastek rownania to: ", x1, sep=" ")
     elif delta < 0:
-        print("Pierwiastki rownania nie istnieja")
+        print("Pierwiastki rownania dla liczb rzeczywistych nie istnieja")

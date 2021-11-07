@@ -8,4 +8,4 @@ else:
 print("#"*30,end='\n')
 
 tablica = ['parzysta', 'nieparzysta']
-print("Liczba", liczba, "jest", tablica[liczba % 2], sep=" ")
+print("Liczba", liczba, "jest", tablica[liczba % 2], sep=" ") #wynikiem %2 zawsze jest 0 lub 1 dzieki czemu iteruje po tablicy parzysta lub nieparzysta
