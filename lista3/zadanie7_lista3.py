@@ -3,7 +3,7 @@ def fibonacci(n):
         return n
     return fibonacci(n - 1) + fibonacci(n - 2)
 
-N = int(input("Podaj koniec ciagu Fibonacci: "))
+N = int(input("Podaj ilosc wyrazow ciagu Fibonacci: "))
 
 for _ in range(0,N):
     print(fibonacci(_))
