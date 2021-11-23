@@ -1,4 +1,4 @@
-def rgb_na_hsv(r, g, b):
+def rgb_na_hsv(r, g, b): #funkcja zamienia rgb na hsv na podstawie algorytmu zawartego tutaj: https://www.rapidtables.com/convert/color/rgb-to-hsv.html
     rprim = r/255
     gprim = g/255
     bprim = b/255

@@ -1,6 +1,6 @@
 import itertools
 def permutacje(lista):
-    listap = list(itertools.permutations(lista))
+    listap = list(itertools.permutations(lista)) #za pomoca itertools tworze obiekt zabierajacy wszystkie permutacje listy a dzieki list() zmieniam ten obiekt w liste
     return listap
 
 lista = []

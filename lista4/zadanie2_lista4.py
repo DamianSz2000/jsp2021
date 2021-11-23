@@ -1,6 +1,6 @@
 def usun_powt(t):
-    t.sort()
-    t = list(dict.fromkeys(t))
+    t.sort() #sortuje tablice
+    t = list(dict.fromkeys(t)) #tworze z tablicy klucze slownika a poniewaz klucze nie moga sie powtarzac duplikaty zostaja usuniete
     return t
 
 n = int(input("Podaj ilosc elementow tablicy: "))
