@@ -1,5 +1,6 @@
+#Zadanie 3 lista 5 Damian Szmulik
 def roman_to_arab(roman):
-    roman_signs = {
+    roman_signs = { #slownik z odpowiednikami rzymskich znakow
         "I": 1,
         "V": 5,
         "X": 10,
@@ -11,6 +12,9 @@ def roman_to_arab(roman):
     converted_number = 0
     length = len(roman)
     i = 0
+    #Program sprawdza kolejne znaki
+    #Jezeli kolejny znak jest wiekszy niz aktualny to znaczy ze mamy sytuacje typu
+    #IX IV itd i wtedy do wyniku dodajemy roznice tych znakow
     while i < length-1:
         if roman_signs[roman[i]] >= roman_signs[roman[i+1]]:
             converted_number += roman_signs[roman[i]]

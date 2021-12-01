@@ -1,3 +1,9 @@
+#Zadanie 2 lista 5 Damian Szmulik
+#Wstyd mi za rozwiazanie tego zadania, jest to tak wszystko pomieszane  ze ciezko w ogole to komentowac
+#Bylo pisane na biezaco i nie jest to nawet bliskie optymalnemu rozwiazaniu tego zadania
+#Jednak cel zadania zostal osiagniety mimo tego
+#W skrocie rozbijam dana liczbe na setki dziesiatki i jednosci i dzieki temu wyciagam z odpowiednich tablic 
+#Odpowiednie wyrazy
 def convert_to_words(x):
     ones = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine']
     tens = ['Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen']

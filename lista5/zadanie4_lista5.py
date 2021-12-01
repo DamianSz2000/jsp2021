@@ -1,3 +1,5 @@
+#Zadanie 4 lista 5 Damian Szmulik
+#Skorzystalem z wbudowanych funkcji translate maketrans dzieki ktorej zreplacowalem konkretne znaki
 def encrypt(sentence):
     sentence = sentence.translate(str.maketrans("aeioy","yioae"))
     return sentence

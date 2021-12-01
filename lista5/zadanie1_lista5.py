@@ -1,5 +1,6 @@
+#Zadanie 1 lista 5 Damian Szmulik
 def convert_to_number(x):
-    numbers = {
+    numbers = { #definiuje liste zawierajaca odpowiedniki liczebnikow z angielskiego
         "One": 1,
         "Two": 2,
         "Three": 3,
@@ -24,8 +25,8 @@ def convert_to_number(x):
         "Forty": 40,
         "Fifty": 50,
     }
-    if x.__contains__("Twenty") and len(x) > 6:
-        words = x.split("-")
+    if x.__contains__("Twenty") and len(x) > 6: #jezeli wyraz zawiera czlon twenty i jest dluzszy niz ten czlon
+        words = x.split("-") #splituje go i wyswietlam odpowiedniki z slownika
         return numbers[words[0]] + numbers[words[1]]
     elif x.__contains__("Thirty") and len(x) > 6:
         words = x.split("-")
