@@ -1,3 +1,4 @@
+#Damian Szmulik 331899 Zadanie 1
 import trojkat
 
 print("Podaj kolejno 3 boki trojkata (zatwierdzaj bok enterem): ")

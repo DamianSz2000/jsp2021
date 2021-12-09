@@ -1,3 +1,5 @@
+#Damian Szmulik 331899 zadanie 1
+#Ponizej prosta budowa z ifami, sprawdzam warunki podane w zadaniu z poznanych wzorów
 import math
 def perimeter(a, b, c):
     return a+b+c
