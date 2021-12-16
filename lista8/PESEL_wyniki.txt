@@ -1,0 +1,18 @@
+nr PESEL:81902225762
+ data urodzenia 22-10-1881;	 plec: kobieta 
+nr PESEL:86211510442
+ data urodzenia 15-1-2086;	 plec: kobieta 
+nr PESEL:91060132582
+ data urodzenia 01-06-1991;	 plec: kobieta 
+nr PESEL:51302948338
+ data urodzenia 29-10-2051;	 plec: mezczyzna 
+nr PESEL:86010370732
+ data urodzenia 03-01-1986;	 plec: mezczyzna 
+nr PESEL:83090773908
+ data urodzenia 07-09-1983;	 plec: kobieta 
+nr PESEL:80872581718
+ data urodzenia 25-7-1880;	 plec: mezczyzna 
+nr PESEL:67220387939
+ data urodzenia 03-2-2067;	 plec: mezczyzna 
+nr PESEL:46252560571
+ data urodzenia 25-5-2046;	 plec: mezczyzna 
