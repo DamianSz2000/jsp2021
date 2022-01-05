@@ -1,4 +1,4 @@
-#Damian Szmulik 331899 zadanie 1
+#Damian Szmulik 331899 zadanie 4
 import xml.etree.ElementTree as ET
 
 class Kursy:
