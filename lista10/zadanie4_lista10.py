@@ -1,11 +1,12 @@
+#Damian Szmulik 331899 zadanie 1
 import xml.etree.ElementTree as ET
 
 class Kursy:
     def __init__(self, path):
         self.path = path
     def lista(self):
-        tree = ET.parse(self.path)
-        root = tree.getroot()
+        tree = ET.parse(self.path) #obsluga xml
+        root = tree.getroot() #obsluga xml
         print("Dostępne waluty: ")
         for x in range(2, len(root)):
             print(root[x][0].text)
@@ -14,13 +15,13 @@ class Kursy:
         root = tree.getroot()
         waluta = input("Podaj na jaką walutę chcesz przeliczyć PLN: ")
         ilosc = float(input("Podaj kwotę w PLN: "))
-        for x in range(2, len(root)):
+        for x in range(2, len(root)): #zczytujemy odpowiednie wartosci z pliku xml
             if(root[x][0].text == waluta):
                 nazwa = root[x][0].text
                 kurs = root[x][3].text.replace(",", ".")
                 ilosc2 = ilosc * float(root[x][1].text) / float(kurs)
         print("{} zł to {} {}".format(ilosc, ilosc2, nazwa))
-    def przeliczwalute(self):
+    def przeliczwalute(self): #to co wyzej, przeliczam najpierw walute na pln, a potem z pln na te drugą walute dzieki czemu otrzymuje zamiane z waluty na walute
         tree = ET.parse(self.path)
         root = tree.getroot()
         waluta1 = input("Podaj walute z której chcesz przeliczać: ")

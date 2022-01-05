@@ -1,3 +1,4 @@
+#Damian Szmulik 331899 zadanie 2
 import itertools
 class podlisty:
     def __init__(self, lista1):
