@@ -3,6 +3,7 @@ class CiagArytmetyczny:
         self.a1 = a1
         self.r = r
         self.n = n
+        self.n2 = n
     def __iter__(self):
         return self
     def __next__(self):
@@ -13,10 +14,13 @@ class CiagArytmetyczny:
             return an
         else:
             raise StopIteration
+    def __len__(self):
+        return self.n2
 obiekt = CiagArytmetyczny(1, 2, 10)
 obiektiter = iter(obiekt)
 
 for x in obiektiter:
     print(x)
+print(obiekt.__len__())
         
 
